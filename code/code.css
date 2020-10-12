@@ -269,20 +269,20 @@ header{
 }
 .vid-text h5{
     font-size: 36px;
-   padding-top: 300px;
+   padding-top: 240px;
 }
 .vid-text i{
     color: #fff;
 }
 .vid-logo img{
-        padding-left: 1320px;
-    padding-top: 136px;
+    padding-left: 1320px;
+    padding-top: 200px;
 }
 /* video end */
 
 /* people start */
 .people{
-    padding: 100px 0;
+    padding: 80px 0;
     width: 100%;
     background: #fafafa;
 }
@@ -379,8 +379,8 @@ header{
 
 .client{
     width: 100%;
-    padding: 100px 0;
-
+    margin-bottom: 70px;
+    margin-top: 70px;
 }
 .cotetion{
     font-size: 240px;
@@ -433,12 +433,13 @@ header{
 /* logo slider start */
 .logos{
     width: 100%;
-    padding: 100px 0;
     text-align: center;
     background: #f7e327;
     height: 50vh;
     }
-
+.logo-content{
+    padding-top: 70px;
+}
 .logo-content .line-1{
     display: block;
     width: 60px;
@@ -482,12 +483,11 @@ header{
 /* contact start */
 .contacts{
     width: 100%;
-    padding: 100px 0;
-    
 }
 
 .cc-content{
     text-align: center;
+    margin-top: 80px;
 }
 .cc-content .line-1{
     display: block;
@@ -521,10 +521,12 @@ header{
     padding: 0 70px;
     margin-bottom: 75px;
 }
-
-
-
-
+.col-img{
+    width: 200px;
+    height: 520px;
+    overflow: hidden;
+    z-index: -1
+}
 .c-form .form-control{
     border-radius: 0;
     margin-bottom: 50px;
@@ -571,16 +573,13 @@ header{
 }
 .btm-line{
     border-bottom: 5px solid #f7e327;
-    margin-top: -175px;
 }
 /* contact end */
 
 /* footer start */
 footer{
-    border-top: 5px solid black;
     width: 100%;
-    padding: 100px 0;
-    margin-top: -56px;
+    padding: 50px 0;
 }
 .f-clm-1 p{
     color: #8f8d8f;
