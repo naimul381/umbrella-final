@@ -601,7 +601,30 @@ footer{
     font-size: 13px;
     color: #8f8d8f;
 }
-
+.f-clm-2 input{
+    position: relative;
+    padding: 0 23px;
+    padding: 7px 25px;
+    border: 2px solid #8f8d8f;
+    border-radius: 3px;
+}
+.ftr-btn{
+    position: absolute;
+    margin-left: -35px;
+    border: none;
+    background: transparent;
+    margin-top: 7px;
+}
+.ftr-btn i{
+    color: #8f8d8f !important;
+    font-size: 28px;
+}
+.ftr-btn i:hover{
+    border: none;
+}
+.ftr-txt{
+    margin-top: 40px;
+}
 .ftr-p-text{
     color: #686768;
     font-size: 13px;
@@ -610,4 +633,23 @@ footer{
 .ftr-p2{
     margin-top: 50px;
 }
+.ftr-line-1 {
+    display: block;
+    width: 2px;
+    height: 33px;
+    background: #f7e327;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: -5px;
+}
+.ftr-line-2 {
+    display: block;
+    width: 48px;
+    height: 2px;
+    background: #f7e327;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 114px;
+}
+
 /* footer end */
